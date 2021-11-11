@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <title> Gastos mensuales </title>
+</head>
+<body>
+    <div class="diario__container">
+        <div class="diario__content">
+            <div class="expensives__container">
+                <p>
+                    <label> Alquiler: </label>
+                    <input id="alquiler" type="number"/>
+                </p>
+                <p>
+                    <label> Supermercado: </label>
+                    <input id="supermercado" type="number"/>
+                </p>
+                <p>
+                    <label> Ropa: </label>
+                    <input id="ropa" type="number"/>
+                </p>
+            </div>
+            <div class="budget-types__container">
+                <div id="presupuesto-inicial-el">
+                    <h4> Presupuesto inicial: </h4>
+                    <p id="presupuesto-inicial"></p>
+                </div>
+                <div id="presupuesto-gastado-el">
+                    <h4> Presupuesto gastado: </h4>
+                    <p id="presupuesto-gastado"></p>
+                </div>
+                <div id="presupuesto-disponible-el">
+                    <h4> Presupuesto disponible: </h4>
+                    <p id="presupuesto-disponible"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="mensuales.js"></script>
+</body>
+</html>
